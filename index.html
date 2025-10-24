@@ -438,6 +438,132 @@
         to { opacity: 1; transform: translateY(0); }
     }
 
+    @media (max-width: 992px) {
+        h1 {
+            font-size: 3rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+        }
+
+        .converter-card {
+            padding: 30px;
+        }
+
+        .converter-section {
+            gap: 20px;
+        }
+
+        .swap-btn {
+            width: 60px;
+            height: 60px;
+            font-size: 1.6rem;
+        }
+    }
+
+    /* Smartphones et petits écrans */
+    @media (max-width: 768px) {
+        body {
+            padding: 15px;
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            text-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+        }
+
+        .category-selector {
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .category-btn {
+            font-size: 1rem;
+        }
+
+        .converter-card {
+            padding: 25px 20px;
+        }
+
+        .converter-section {
+            grid-template-columns: 1fr;
+            gap: 25px;
+        }
+
+        .swap-btn {
+            width: 55px;
+            height: 55px;
+            font-size: 1.5rem;
+            margin: 0 auto;
+        }
+
+        .input-group input,
+        select {
+            font-size: 1.1rem;
+        }
+
+        .result-info {
+            font-size: 1.1rem;
+        }
+
+        .footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+
+        .coffee-link {
+            width: 100%;
+            max-width: 280px;
+        }
+    }
+
+    /* Très petits écrans (iPhone SE, etc.) */
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.9rem;
+        }
+
+        .subtitle {
+            font-size: 0.8rem;
+        }
+
+        .category-selector {
+            grid-template-columns: 1fr;
+        }
+
+        .converter-card {
+            padding: 20px 15px;
+        }
+
+        .input-group {
+            padding: 15px;
+        }
+
+        .swap-btn {
+            width: 50px;
+            height: 50px;
+            font-size: 1.3rem;
+        }
+
+        .result-info {
+            font-size: 1rem;
+        }
+
+        .footer {
+            margin-top: 40px;
+        }
+    }
+
   </style>
 </head>
 <body>
